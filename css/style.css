@@ -52,11 +52,17 @@ html {
     text-align: center;
     font-size: 10em;
     border-bottom: thick solid black;
+    margin-top: -.25em;
 }
 
 .intro{
     background-position: center bottom;
     border-bottom: thick solid black;
+}
+
+
+.classic-shirt{
+    text-align: center;
 }
 
 .content > h1{
@@ -75,6 +81,8 @@ html {
     display: inline-block;
     margin: 0 auto;
 }
+
+
 
 .offers li{
     text-align: center;
