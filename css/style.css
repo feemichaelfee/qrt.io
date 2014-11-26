@@ -51,10 +51,12 @@ html {
     text-align: center;
     font-size: 10em;
     border-bottom: thick solid black;
-    margin-top: -.25em;
+    padding-bottom: .2em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .intro{
+    height: 5em;
     background-position: center bottom;
     border-bottom: thick solid black;
 }
@@ -63,11 +65,14 @@ html {
 
 .classic-shirt{
     text-align: center;
+    font-family: "Times",Helvetica,Arial,sans-serif;
 }
+/*
+    .content{
+    background-image: url('../img/intro-border.png');
+}
+*/
 
-.content{
-        background-image: url('../img/intro-border.jpg');
-}
 .content > h1{
     font-size: 3em;
     text-align: center; 
@@ -87,6 +92,7 @@ html {
 
 .offers{
     text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .offers li{
@@ -98,12 +104,33 @@ html {
     margin: 0 auto;
 }
 
-/* Made iin NYC / testimonials */
+.manufacture {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: thick solid black;
+    font-size: 3em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.greenpoint-pics img{
+    border: thick solid black;
+    margin: 1em;
+}
+
+.greenpoint-pics{
+    text-align: center;
+}
+
+.manufacture .manufacture-content{
+    text-align: center; 
+}
 
 /* close */
 
 .info{
     text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .info h1{
@@ -113,6 +140,7 @@ html {
     line-height: 200%;
     padding-top: 2em;
     padding-bottom: 2em;
+    font-family: "Times",Helvetica,Arial,sans-serif;
 }
 
 .info li{
@@ -126,12 +154,14 @@ html {
 
 /* Footer */
 
-.footer{
-    background-position: center bottom;
-    border-bottom: thick solid black;
-    height: 5em;
-    position: absolute;
-    clip: rect(0px,60px,200px,0px);
+footer{
+    border-top: thick solid black;
+    background-image: url('../img/intro-border.png');
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 3em;
+    height: 10em;
+    background-size: cover;
 }
 
 /* Misc */
