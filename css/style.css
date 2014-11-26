@@ -41,7 +41,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-
 /* Navigation Section */
 
 .top-navigation {
@@ -60,6 +59,7 @@ html {
     border-bottom: thick solid black;
 }
 
+/* "Classic shirt" pitch and images */
 
 .classic-shirt{
     text-align: center;
@@ -68,9 +68,9 @@ html {
 .content > h1{
     font-size: 3em;
     text-align: center; 
-    padding-top: 2em;
     line-height: 200%;
-    padding-bottom: 1.5em;
+    padding-bottom: 5.5em;
+    padding-top: 4.5em;
 }
 
 .content li{
@@ -82,7 +82,9 @@ html {
     margin: 0 auto;
 }
 
-
+.offers{
+    text-align: center;
+}
 
 .offers li{
     text-align: center;
@@ -93,12 +95,21 @@ html {
     margin: 0 auto;
 }
 
+/* Made iin NYC / testimonials */
+
+/* close */
+
+.info{
+    text-align: center;
+}
+
 .info h1{
     font-size: 3em;
     text-align: center; 
     padding-top: 1em;
     line-height: 200%;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .info li{
@@ -110,6 +121,8 @@ html {
     margin: 0 auto;
 }
 
+/* Footer */
+
 .footer{
     background-position: center bottom;
     border-bottom: thick solid black;
@@ -117,6 +130,8 @@ html {
     position: absolute;
     clip: rect(0px,60px,200px,0px);
 }
+
+/* Misc */
 m{
     font-weight: 900;
 }
