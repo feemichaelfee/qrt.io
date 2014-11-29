@@ -43,7 +43,7 @@ html {
 
 /* Navigation Section */
 
-.top-navigation {
+.top-navigation{
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -51,8 +51,23 @@ html {
     text-align: center;
     font-size: 10em;
     border-bottom: thick solid black;
-    padding-bottom: .2em;
+    padding-bottom: .15em;
+    margin-top: -.07em;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.top-navigation img{
+    text-align: left;
+}
+
+.intro-buffer .content{
+    border-bottom: thick solid black;
+    background-image: url('../img/intro-border.png');
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 3em;
+    height: 18em;
+    background-size: cover;
 }
 
 .intro{
@@ -77,10 +92,16 @@ html {
     font-size: 3em;
     text-align: center; 
     line-height: 200%;
-    padding-bottom: 5.5em;
+    padding-bottom: 6.5em;
     padding-top: 4.5em;
 }
 
+.content ul{
+    border-top: thick solid black;
+    background-image: url('../img/intro-border.png');
+    background-size: cover;
+
+}
 .content li{
     text-align: center;
     border: thick solid black;
@@ -88,6 +109,20 @@ html {
     width: 45%;
     display: inline-block;
     margin: 0 auto;
+}
+
+.image-left{
+    background-image: url('../img/image-placeholder.jpg');
+    background-size: cover;
+    height: 4em;
+    width: 4em;
+}
+
+.image-right{
+    background-image: url('../img/image-placeholder.jpg');
+    background-size: cover;
+    height: 4em;
+    width: 4em;
 }
 
 .offers{
