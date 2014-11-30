@@ -86,7 +86,9 @@ html {
 .classic-shirt{
     text-align: center;
     font-family: "Times",Helvetica,Arial,sans-serif;
+    
 }
+
 .classic-shirt h2{
     font-size: 3em;
     text-align: center; 
@@ -183,7 +185,7 @@ html {
 }
 
 .manufacture h2{
-    font-size: 3em;
+    font-size: 2em;
     text-align: center; 
     padding-top: 1em;
     line-height: 200%;
@@ -261,8 +263,27 @@ form{
     padding-left: 2em;
     box-shadow: 10px 10px 50px gray;
     display: block;
+    margin-bottom: 2em;
 }
 
+form table{
+    width: 80%;
+}
+
+form textarea{
+    width: 80%;
+    height: 150px;
+}
+
+form .ss-q-short{
+    width: 80%;
+    height: 150px;
+}
+
+form .jfk-button{
+    text-align: center;
+    margin-top: 2em;
+}
 
 /* Footer */
 
@@ -272,8 +293,8 @@ border-bottom: thick solid black;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
     font-size: 3em;
-    height: 9em;
-    background-size: cover;
+    height: 10em;
+    background-size: stretch;
 /*    border-top: thick solid black;
     background-image: url('../img/intro-border.png');
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -281,6 +302,25 @@ border-bottom: thick solid black;
     font-size: 3em;
     height: 10em;
     background-size: cover; */
+}
+
+footer .footer-extra-space{
+    border-top: thick black solid;
+    height: 3.5em;
+}
+footer .email, .twitter, .product-hunt{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white;
+    width: 15%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: .6em;
+    display: inline-block;
+    font-weight: 900;
+    padding: 1em 0 1em 0;
+    border: thick black solid;
 }
 
 /* Misc */
