@@ -70,7 +70,9 @@ html {
 }
 
 .intro-00{
-    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 9em;
 }
 
 .intro{
@@ -85,11 +87,17 @@ html {
     text-align: center;
     font-family: "Times",Helvetica,Arial,sans-serif;
 }
-/*
-    .content{
-    background-image: url('../img/intro-border.png');
+.classic-shirt h2{
+    font-size: 3em;
+    text-align: center; 
+    padding-top: 1em;
+    line-height: 200%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: thick solid black; 
+    margin-bottom: 2em;
+    font-family: "Times",Helvetica,Arial,sans-serif;
 }
-*/
 
 .content > h1{
     font-size: 3em;
@@ -136,17 +144,22 @@ html {
 
 .offers li{
     text-align: center;
-    /*border: thick solid black;*/
     font-size: 3em;
-    width: 45%;
+    width: 35%;
     display: inline-block;
     margin: 0 auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 2em;    
+    box-shadow: 10px 10px 50px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 2em .5em 2em .5em;
+    margin-bottom: 5em;
 }
 
 .xx{
-    text-align: center; 
+    width: 50%;
+    margin: 0 auto;
+
 }
 
 .manufacture {
@@ -163,11 +176,27 @@ html {
     text-align: left;
     margin-left: 25%;
     margin-right: 25%;
-    padding: 5em 0em 5em 0em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.manufacture h2{
+    font-size: 3em;
+    text-align: center; 
+    padding-top: 1em;
+    line-height: 200%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: thick solid black; 
+    margin-bottom: 2em;
+    font-family: "Times",Helvetica,Arial,sans-serif;
 }
 
 .point-left{
-    text-align: center; 
+    width: 50%;
+    margin: 0 auto; 
 }
 
 /* close */
@@ -182,8 +211,8 @@ html {
     text-align: center; 
     padding-top: 1em;
     line-height: 200%;
-    padding-top: 5em;
-    padding-bottom: 6em;
+    padding-top: 3em;
+    padding-bottom: 4em;
     font-family: "Times",Helvetica,Arial,sans-serif;
 }
 
@@ -191,12 +220,16 @@ html {
     text-align: center;
     font-family: "Times",Helvetica,Arial,sans-serif;
     font-size: 3em;
-    width: 45%;
+    width: 35%;
     display: inline-block;
     margin: 0 auto;
     margin-top: 3em;
     margin-bottom: 3em;
     padding: 2em 0em 2em 0em;
+    padding: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 50px gray;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .info h2{
@@ -211,15 +244,23 @@ html {
     font-family: "Times",Helvetica,Arial,sans-serif;
 }
 
+.point-right{
+    width: 50%;
+    margin: 0 auto;
+}
+
 form{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     font-size: 2em;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
     vertical-align: middle;
-    padding: 1em 25% 1em 25%;
+    padding-right: 2em;
+    padding-left: 2em;
+    box-shadow: 10px 10px 50px gray;
+    display: block;
 }
 
 
